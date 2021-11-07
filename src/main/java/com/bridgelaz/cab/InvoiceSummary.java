@@ -5,6 +5,7 @@ public class InvoiceSummary {
 	public final int numberOfRides;
 	public final double totalFare;
 
+	// parameterized constructor
 	public InvoiceSummary(int numberOfRides, double totalFare) {
 		this.numberOfRides = numberOfRides;
 		this.totalFare = totalFare;
